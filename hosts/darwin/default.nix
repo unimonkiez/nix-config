@@ -49,6 +49,11 @@ let user = "yuvalsaraf"; in
     primaryUser = user;
     stateVersion = 4;
 
+    keyboard = {
+      enableKeyMapping = true;
+      remapCapsLockToEscape = true;
+    };
+
     defaults = {
       CustomUserPreferences = {
         "com.apple.desktopservices" = {
