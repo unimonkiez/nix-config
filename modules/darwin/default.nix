@@ -33,6 +33,7 @@ in
       "discord"
       "slack"
       "zoom"
+      "steam"
 
       # Utility Tools
       "ghostty"

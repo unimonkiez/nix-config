@@ -16,6 +16,7 @@ with pkgs; [
   neovim
   fzf
   stow
+  tmux
 
   rustc
   cargo
@@ -38,6 +39,7 @@ with pkgs; [
   noto-fonts
   noto-fonts-emoji
   meslo-lgs-nf
+  gimp
 
   # Text and terminal utilities
   htop

@@ -55,6 +55,10 @@ let user = "yuvalsaraf"; in
     };
 
     defaults = {
+      controlcenter = {
+        BatteryShowPercentage = true;
+      };
+
       CustomUserPreferences = {
         "com.apple.desktopservices" = {
           # Avoid creating .DS_Store files on network or USB volumes
