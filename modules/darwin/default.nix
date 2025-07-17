@@ -44,6 +44,7 @@ in
 
       # Productivity Tools
       "raycast"
+      "scroll-reverser"
 
       # Browsers
       "google-chrome"
