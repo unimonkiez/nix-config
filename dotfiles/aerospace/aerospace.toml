@@ -62,15 +62,25 @@ alt-shift-minus = 'resize smart -50'
 alt-shift-equal = 'resize smart +50'
 
 # Workspace management
-alt-1 = 'workspace 1'
-alt-2 = 'workspace 2'
-alt-3 = 'workspace 3'
-alt-4 = 'workspace 4'
-alt-5 = 'workspace 5'
-alt-6 = 'workspace 6'
-alt-7 = 'workspace 7'
-alt-8 = 'workspace 8'
-alt-9 = 'workspace 9'
+alt-1 = ['focus-monitor 1', 'summon-workspace 1']
+alt-2 = ['focus-monitor 1', 'summon-workspace 2']
+alt-3 = ['focus-monitor 1', 'summon-workspace 3']
+alt-4 = ['focus-monitor 1', 'summon-workspace 4']
+alt-5 = ['focus-monitor 1', 'summon-workspace 5']
+alt-6 = ['focus-monitor 1', 'summon-workspace 6']
+alt-7 = ['focus-monitor 1', 'summon-workspace 7']
+alt-8 = ['focus-monitor 1', 'summon-workspace 8']
+alt-9 = ['focus-monitor 1', 'summon-workspace 9']
+
+alt-ctrl-1 = ['focus-monitor 2', 'summon-workspace 1']
+alt-ctrl-2 = ['focus-monitor 2', 'summon-workspace 2']
+alt-ctrl-3 = ['focus-monitor 2', 'summon-workspace 3']
+alt-ctrl-4 = ['focus-monitor 2', 'summon-workspace 4']
+alt-ctrl-5 = ['focus-monitor 2', 'summon-workspace 5']
+alt-ctrl-6 = ['focus-monitor 2', 'summon-workspace 6']
+alt-ctrl-7 = ['focus-monitor 2', 'summon-workspace 7']
+alt-ctrl-8 = ['focus-monitor 2', 'summon-workspace 8']
+alt-ctrl-9 = ['focus-monitor 2', 'summon-workspace 9']
 
 # Move windows to workspaces
 alt-shift-1 = 'move-node-to-workspace 1'
