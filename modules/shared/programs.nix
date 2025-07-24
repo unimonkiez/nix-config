@@ -61,6 +61,8 @@ let name = "Yuval Saraf";
 
       # Always color ls and group directories
       alias ls='ls --color=auto'
+
+      . "$HOME/.cargo/env"
     '';
   };
 

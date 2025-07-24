@@ -28,6 +28,7 @@ in
       "homebrew/cask/docker"
       "visual-studio-code"
       "godot"
+      "gcc-arm-embedded"
 
       # Communication Tools
       "discord"

@@ -18,11 +18,6 @@ with pkgs; [
   stow
   tmux
 
-  rustc
-  cargo
-  rustfmt
-  rustPackages.clippy
-
   nodejs
 
   # Cloud-related tools and SDKs
