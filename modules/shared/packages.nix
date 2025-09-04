@@ -18,8 +18,6 @@ with pkgs; [
   stow
   tmux
 
-  nodejs
-
   # Cloud-related tools and SDKs
   docker
   docker-compose

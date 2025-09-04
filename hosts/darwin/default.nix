@@ -88,6 +88,10 @@ let user = "yuvalsaraf"; in
           };
         };
       };
+      
+      menuExtraClock = {
+        Show24Hour = true;
+      };
 
       NSGlobalDomain = {
         AppleShowAllExtensions = true;
